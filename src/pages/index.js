@@ -10,7 +10,7 @@ const IndexPage = () => (
     <p>I write HTML, CSS, JS, PHP, and MySQL</p>
     <p>I've also mucked around with a little Ruby, Python, and Java</p>
     <p>I just finished a contract building a data management app related to the BART extension to San Jose</p>
-    <p>I'm excited to build something 🤩<span className="hightlight-text">wow</span>🤩 with a bunch of great people at JAMstack Conf 2018</p>
+    <p>I'm excited to build something <span role="img" aria-label="star-eyed emoji">🤩</span><span className="hightlight-text">wow</span><span role="img" aria-label="star-eyed emoji">🤩</span> with a bunch of great people at JAMstack Conf 2018</p>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
