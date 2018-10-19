@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div class="page">
+        <div className="page">
           <Header siteTitle={data.site.siteMetadata.title} />
           <main
             style={{
