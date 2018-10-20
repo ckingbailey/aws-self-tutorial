@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Colin King-Bailey <ckingbailey@gmail.com>",
   "dependencies": {
+    "express": "^4.16.4",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
@@ -17,6 +18,8 @@
   ],
   "license": "MIT",
   "scripts": {
+    "start": "node index.js",
+    "serve": "node index.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
