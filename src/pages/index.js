@@ -1,17 +1,13 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hello World!</h1>
-    <p>My name's Colin</p>
-    <p>I write HTML, CSS, JS, PHP, and MySQL</p>
-    <p>I've also mucked around with a little Ruby, Python, and Java</p>
-    <p>I just finished a contract building a data management app related to the BART extension to San Jose</p>
-    <p>I'm excited to build something <span role="img" aria-label="star-eyed emoji">🤩</span><span className="hightlight-text">wow</span><span role="img" aria-label="star-eyed emoji">🤩</span> with a bunch of great people at JAMstack Conf 2018</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Hi, my name is Colin King-Bailey</h1>
+    <p>I create applications with HTML, CSS, JS, PHP, and MySQL</p>
+    <p>I've also worked on projects that used Ruby, Python, and Java</p>
+    <p>Currently I support a construction data management app I helped build for the BART extension to San Jose</p>
   </Layout>
 )
 

@@ -1,0 +1,14 @@
+.footer {
+    padding: 1rem 1rem 1.125rem;
+    background-color: var(--grey-4);
+    color: white;
+}
+
+.footer__link {
+    margin: 0;
+    font-weight: normal;
+}
+
+.footer a {
+    color: var(--grey-1);
+}
