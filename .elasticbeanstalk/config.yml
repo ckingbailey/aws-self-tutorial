@@ -1,9 +1,6 @@
 branch-defaults:
-  deploy/first-aws:
-    environment: hello-world-env
-  feat/express:
-    environment: hello-world-env
-    group_suffix: null
+  feat/express-gen:
+    environment: node-express-env
 global:
   application_name: hello-world
   branch: null
