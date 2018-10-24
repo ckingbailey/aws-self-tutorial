@@ -1,6 +1,6 @@
 branch-defaults:
   feat/express-gen:
-    environment: node-express-env
+    environment: hello-world
 global:
   application_name: hello-world
   branch: null
